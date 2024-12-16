@@ -1,0 +1,28 @@
+.departments .nav-link {
+    border: 0;
+    padding: 12px 15px 12px 0;
+    transition: 0.3s;
+    color: var(--default-color);
+    border-radius: 0;
+    border-right: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
+}
+
+.departments .nav-link:hover {
+    color: aliceblue !important;
+    margin-left: 2px;
+    padding-left: 5px;
+}
+
+.departments .nav-link.active {
+    color: var(--accent-color) !important;
+    border-color: transparent !important;
+    border-right: 2px solid blue !important;
+    border-radius: 0px !important;
+    background-color: var(--background-color) !important;
+}

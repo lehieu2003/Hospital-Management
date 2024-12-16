@@ -1,0 +1,17 @@
+.icon svg {
+    height: 2em;
+}
+
+.home .services .service-item .btn {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.home .services .service-item h3 {
+    color: #000 !important;
+    background-color: transparent;
+}
+
+.home .services .service-item:hover h3 {
+    color: aliceblue !important;
+}

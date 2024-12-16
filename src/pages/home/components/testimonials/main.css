@@ -1,0 +1,16 @@
+/* Testimonials.css */
+.testimonials .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+.testimonials .swiper-pagination-bullet-active {
+    background-color: #007bff;
+}
+
+.testimonials .swiper-pagination {
+    position: absolute !important;
+}

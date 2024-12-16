@@ -1,0 +1,35 @@
+.social-icon-ft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+    font-size: 16px;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.footer-about .logo {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.social-links .social-icon-ft {
+    background-color: transparent !important;
+    color: #696e70 !important;
+    border-color: #696e70 !important;
+    margin-right: 8px;
+    border-radius: 36px !important;
+}
+
+.btn-link-footer {
+    background-color: transparent !important;
+    color: #696e70 !important;
+    border: none !important;
+}
+li {
+    width: max-content;
+}

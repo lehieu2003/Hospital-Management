@@ -1,0 +1,8 @@
+@use "sass:meta";
+
+
+.home{
+    @include meta.load-css("~bootstrap/scss/bootstrap");
+}
+
+// /html/body/div[2]
